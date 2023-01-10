@@ -10,7 +10,7 @@
                 </span>
                 <input type="email" class="px-3 email py-2" placeholder="e.g. jacob@gmail.com">
                 <textarea id="message" name="message" rows="3" cols="50" placeholder="Leave a message" class="px-3" ></textarea>
-                <button class="send py-2 w-75 rounded-2">Send</button>
+                <button class="send py-2 w-100 rounded-2">Send</button>
             </form>
         </div>
     </div>
