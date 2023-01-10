@@ -3,12 +3,35 @@
         <h2 class="logo px-2 text-theme-color rounded-1">L.</h2>
         <nav>
             <ul class="d-flex list-unstyled">
-                <li class="px-4 pt-3 text-theme-color">Home</li>
-                <li class="px-4 pt-3 text-theme-color">About</li>
-                <li class="px-4 pt-3 text-theme-color">Resume</li>
-                <li class="px-4 pt-3 text-theme-color">Projects</li>
-                <li class="px-4 pt-3 text-theme-color">Testimonials</li>
-                <li class="px-4 pt-3 text-theme-color">Contact</li>
+                <!-- router link to HOME page -->
+                <router-link to="/">
+                    <li class="px-4 pt-3 text-theme-color">Home</li>
+                </router-link>
+
+                <!-- router link to ABOUT page -->
+                <router-link to="/about">
+                    <li class="px-4 pt-3 text-theme-color">About</li>
+                </router-link>
+                
+                <!-- router link to RESUME page -->
+                <router-link to="/resume">
+                    <li class="px-4 pt-3 text-theme-color">Resume</li>
+                </router-link>
+                
+                <!-- router link to PROJECTS page -->
+                <router-link to="/projects">
+                    <li class="px-4 pt-3 text-theme-color">Projects</li>
+                </router-link>
+
+                <!-- router link to TESTIMONIALS page -->
+                <router-link to="/testimonials">
+                    <li class="px-4 pt-3 text-theme-color">Testimonials</li>
+                </router-link>
+
+                <!-- router link to projects page -->
+                <router-link to="/contact">
+                    <li class="px-4 pt-3 text-theme-color">Contact</li>
+                </router-link>
             </ul>
         </nav>
     </header>
