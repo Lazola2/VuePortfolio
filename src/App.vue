@@ -21,7 +21,7 @@
 
 <style>
 :root {
-  --theme-color: rgb(199, 209, 0);
+  --theme-color: rgb(255, 234, 0);
   --theme-color-alpha: rgba(0, 0, 0, 0.841);
   --text-color: rgb(187, 187, 187);
 }
@@ -48,14 +48,6 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
 }
-/*nav {
-  padding: 30px;
-}
-
-nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}*/ 
 
 nav a {
   text-decoration: none;

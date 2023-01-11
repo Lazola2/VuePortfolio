@@ -86,9 +86,9 @@ export default {
     }
 
     .navigator .nav-button {
-        height: 25px;
-        width: 25px;
-        border: 4px solid var(--theme-color);
+        height: 20px;
+        width: 20px;
+        border: 3px solid black;
         border-radius: 50%;
     }
 

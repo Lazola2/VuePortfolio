@@ -21,7 +21,7 @@
                 </div>
                 <div class="sites skills-site h-100 h-100" id="site-2">
                     <!-- skills information goes here -->
-                    <div class="bg-warning skills-title mb-3 d-flex justify-content-start">
+                    <div class="skills-title-holder mb-3 d-flex justify-content-start">
                         <h4 class="skills-title">Skills</h4>
                     </div>
                     <SkillsItem/>
@@ -150,14 +150,28 @@ export default {
         grid-template-rows: 2fr repeat(5, 3fr);
     }
 
-    .skills-title {
+    .skills-title-holder {
         grid-column: 1/-1;
         position: relative;
+        z-index: 1;
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        font-weight: 700;
+    }
+
+    .skills-title {
+        scale: 1.3;
     }
 
     .skills-title::before {
         content: '';
         position: absolute;
+        height: 30px;
+        width: 30px;
+        background: var(--theme-color);
+        border-radius: 50%;
+        z-index: -1;
+        transform: translateX(-1rem);
     }
 
 </style>

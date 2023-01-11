@@ -5,7 +5,7 @@
             <p class="rating">{{skillsItem.rate}}%</p>
         </div>
         <div  class="progress progress-bar-progress" role="progressbar" :aria-valuenow="skillsItem.rate" aria-valuemin="0" aria-valuemax="100">
-            <div class="progress-bar progress-bar-striped" :style="{width: skillsItem.rate + '%'}"></div>
+            <div class="progress-bar progress-bar-striped rounded-2" :style="{width: skillsItem.rate + '%'}"></div>
         </div>
     </div>
 </template>
