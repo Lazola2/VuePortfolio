@@ -17,46 +17,6 @@
       SocialIcons,
     }
   }
-
-  // setting the projects in the localStorage
-  let projects = [
-    {
-      id: 1,
-      title: 'Point of Sale System ',
-      description: 'Built and Deployed a point of Sale System made with JavaScript and Bootstrap',
-      githubLink: 'https://github.com/Lazola2/POS-System',
-      hostLink: 'https://laz-possystem.netlify.app/',
-      imageLink: 'https://i.postimg.cc/6QWW0Tmz/POS.png'
-    },
-    {
-      id: 2,
-      title: 'Online Calculator',
-      description: 'Built and Deployed a calculator made with JavaScript and Bootstrap',
-      githubLink: 'https://github.com/Lazola2/JSCalculator.git',
-      hostLink: 'https://laz-calculator.netlify.app/',
-      imageLink: 'https://i.postimg.cc/cJtSTYcR/CALCULATOR.png'
-    },
-    {
-      id: 3,
-      title: 'Clothing Store',
-      description: 'Built and Deployed a clothing store in HTML and CSS',
-      githubLink: 'https://github.com/Lazola2/E-Commerce-Site.git',
-      hostLink: 'https://lazola-ecommerce.netlify.app/',
-      imageLink: 'https://i.postimg.cc/25P7BqG9/Clothing.png'
-    },
-    {
-      id: 4,
-      title: 'Portfolio',
-      description: 'My portfolio built in VueJS and Bootstrap',
-      githubLink: 'https://github.com/Lazola2/VuePortfolio.git',
-      // not hosted yet: must host in firebase
-      hostLink: '',
-      imageLink: 'https://i.postimg.cc/ZRZw0BVP/Portfolio.png'
-    },
-  ]
-  // send these projects to the local storage
-  localStorage.setItem('projects', JSON.stringify(projects));
-
 </script>
 
 <style>
