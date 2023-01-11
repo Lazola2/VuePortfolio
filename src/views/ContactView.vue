@@ -5,11 +5,11 @@
             <form action="https://formspree.io/f/mzbqbowj" method="POST" class="gap-3 w-100 h-7 contact-form d-flex flex-column">
                 <!-- name and surname should be on one line -->
                 <span class="name-surname d-flex gap-3">
-                    <input type="text" class="px-3 name w-50 py-2" placeholder="Enter your name...">
-                    <input type="text" class="px-3 surname w-50 py-2" placeholder="Enter your surname...">
+                    <input  name="name" type="text" class="px-3 name w-50 py-2" placeholder="Enter your name..." required>
+                    <input  name="surname" type="text" class="px-3 surname w-50 py-2" placeholder="Enter your surname..." required>
                 </span>
-                <input type="email" class="px-3 email py-2" placeholder="e.g. jacob@gmail.com">
-                <textarea id="message" name="message" rows="3" cols="50" placeholder="Leave a message" class="px-3" ></textarea>
+                <input name="email" type="email" class="px-3 email py-2" placeholder="e.g. jacob@gmail.com" required>
+                <textarea id="message" name="message" rows="3" cols="50" placeholder="Leave a message" class="px-3" required></textarea>
                 <button class="send py-2 w-100 rounded-2">Send</button>
             </form>
         </div>

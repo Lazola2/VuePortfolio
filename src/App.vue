@@ -61,7 +61,7 @@
 
 <style>
 :root {
-  --theme-color: rgb(245, 205, 7);
+  --theme-color: rgb(199, 209, 0);
   --theme-color-alpha: rgba(0, 0, 0, 0.841);
   --text-color: rgb(187, 187, 187);
 }

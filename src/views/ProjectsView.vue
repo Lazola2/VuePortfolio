@@ -13,7 +13,7 @@
                 </div>
             </div>
 
-            <div class="navigator gap-2">
+            <div class="navigator gap-2 mt-2">
                 <a href="#1">
                         <li class="nav-button list-unstyled"></li>
                 </a>
@@ -86,9 +86,9 @@ export default {
     }
 
     .navigator .nav-button {
-        height: 15px;
-        width: 15px;
-        border: 2px solid var(--theme-color);
+        height: 25px;
+        width: 25px;
+        border: 4px solid var(--theme-color);
         border-radius: 50%;
     }
 
@@ -98,7 +98,7 @@ export default {
         margin-top: 2.5rem;
         overflow: hidden;
         transition: 1s;
-        box-shadow: 2px 0 15px 0 black;
+        box-shadow: 0 0 15px 0 rgb(0, 0, 0);
     }
 
     .projects {

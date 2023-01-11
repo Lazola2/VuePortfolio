@@ -2,7 +2,9 @@
     <div :id="project.id" class="project bg-success position-relative" v-for="project in projects" :key="project.id">
         <div class="content position-absolute h-100">
             <div class="bootstrap-icon">
-                <i class="bi bi-github text-white"></i>
+                <a :href="project.githubLink">
+                    <i class="bi bi-github text-white github-icon ms-5 mt-3"></i>
+                </a>
             </div>
             <div class="number">
                 <h1 class="number">0{{project.id}}</h1>
@@ -41,6 +43,15 @@ export default {
     .project {
         height: 320px;
         width: 100%;
+        z-index: 1;
+    }
+
+    .project:hover img {
+        scale: 1.3;
+        z-index: -100;
+    }
+
+    .content {
         z-index: 1;
     }
 
@@ -87,7 +98,7 @@ export default {
     }
     .content {
         width: 100%;
-        background: rgba(0, 0, 0, 0.821);
+        background: rgba(0, 0, 0, 0.721);
         display: grid;
         grid-template-columns: 4fr 1fr;
         grid-template-rows: 1.2fr .8fr repeat(3, .7fr);
@@ -98,6 +109,12 @@ export default {
         object-fit: cover;
         height: 100%;
         width: 100%;
+    }
+
+    .github-icon {
+        font-size: 40px;
+        float: left;
+        cursor: pointer;
     }
 
 </style>

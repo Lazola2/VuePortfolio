@@ -13,20 +13,22 @@ export default {
 </script>
 <style scoped>
     .decorator {
-        height: 30px;
+        height: 20px;
         width: 300px;
+        position: relative;
+        top: -.5rem;
     }
 
     .left-pole,.right-pole {
-        height: 6px;
+        height: 4px;
         width: 40%;
         border-radius: 10px;
         background: var(--theme-color);
     }
 
     .dot {
-        height: 15px;
-        width: 15px;
+        height: 12px;
+        width: 12px;
         border-radius: 50%;
         background: var(--theme-color);
     }

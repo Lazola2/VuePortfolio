@@ -1,6 +1,8 @@
 <template>
     <header class="container-fluid d-flex justify-content-between align-items-center px-5">
-        <h2 class="logo px-2 text-theme-color rounded-1">L.</h2>
+        <h2 class="logo text-theme-color">
+            <i class="bi bi-code-slash"></i>
+        </h2>
         <nav>
             <ul class="d-flex list-unstyled">
                 <!-- router link to HOME page -->
@@ -48,7 +50,6 @@ export default {
     }
 
     .logo {
-        font-size: 40px;
-        border: 2px solid var(--theme-color);
+        font-size: 35px;
     }
 </style>
