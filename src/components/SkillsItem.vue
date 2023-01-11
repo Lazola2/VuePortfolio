@@ -28,7 +28,7 @@ export default {
 <style scoped>
 
     .progress-bar-progress {
-        height: 15px;
+        height: 10px;
         transform: translateY(-.5rem);
     }
     .progress-bar {
