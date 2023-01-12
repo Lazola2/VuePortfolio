@@ -25,7 +25,7 @@
         </div>
         <div class="d-flex flex-column align-items-start ps-5 pt-3">
           <h4 class="decorated text-black interests">Interests</h4>
-          <div class="interests-container bg-danger list-unstyled">
+          <div class="interests-container list-unstyled">
             <li class="py-2 text-start ps-3">
               <i class="bi bi-music-note-beamed  icons"></i>
               Music
