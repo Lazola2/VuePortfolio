@@ -143,8 +143,7 @@ const resume = {
             id: 9,
             title: 'Python',
             rate: 35,
-        },
-        
+        },     
     ],
 }
   

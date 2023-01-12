@@ -30,8 +30,7 @@
                             <div class="h-100 w-50 d-flex flex-column">
                                 <p class="text-start ps-3 pt-2">
                                     <span class="bold">Asandile Langeni</span> 
-                                    <br>
-                                    FullStack Developer 
+                                    <br>FullStack Developer 
                                 </p>
                             </div>
                         </div>
@@ -61,6 +60,7 @@
         </div>
     </div>
 </template>
+
 <script>
 import Decorator from '@/components/Decorator.vue';
 export default {
@@ -69,6 +69,7 @@ export default {
     }
 }
 </script>
+
 <style scoped>
     .testimonials-container {
         height: 75%;
@@ -145,11 +146,4 @@ export default {
     .theme-color {
         color: var(--theme-color);
     }
-
-
-
-
-
-
-
 </style>
