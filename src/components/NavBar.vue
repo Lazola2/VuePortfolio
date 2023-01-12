@@ -1,5 +1,5 @@
 <template>
-    <header class="container-fluid d-flex justify-content-between align-items-center px-5">
+    <header class="bg-black  container-fluid d-flex justify-content-between align-items-center px-5">
         <h2 class="logo text-theme-color">
             <i class="bi bi-code-slash"></i>
         </h2>
@@ -47,6 +47,7 @@ export default {
     header {
         height: 10vh;
         position: fixed;
+        z-index: 10000;
     }
 
     .logo {

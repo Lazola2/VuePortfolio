@@ -26,6 +26,9 @@
                 <a href="#4">
                     <li class="nav-button list-unstyled"></li>
                 </a>
+                <a href="#5">
+                    <li class="nav-button list-unstyled"></li>
+                </a>
             </div>
         </div>
     </div>
@@ -74,7 +77,6 @@ export default {
         height: 80%;
         width: 64%;
         background: rgba(255, 255, 255, 0.755);
-        border: 5px;
     }
 
     .navigator {

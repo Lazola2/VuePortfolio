@@ -1,22 +1,22 @@
 <template>
-  <div class="app">
-    <NavBar/>
-    <SocialIcons/>
-    <router-view/>
-  </div>
-  
+  <NavBar />
+  <SocialIcons />
+  <router-view />
+  <FooterItem />
 </template>
 
 
 <script>
-  import NavBar from './components/NavBar.vue';
-  import SocialIcons from '@/components/SocialIcons.vue';
-  export default {
-    components: {
-      NavBar,
-      SocialIcons,
-    }
+import NavBar from './components/NavBar.vue';
+import SocialIcons from '@/components/SocialIcons.vue';
+import FooterItem from './components/Footer.vue';
+export default {
+  components: {
+    NavBar,
+    SocialIcons,
+    FooterItem,
   }
+}
 </script>
 
 <style>
@@ -26,13 +26,11 @@
   --text-color: rgb(187, 187, 187);
 }
 
-.app {
-  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
-    url(https://i.postimg.cc/tTsNS4Sb/image.png);
-  background-attachment: fixed;
-  height: 100vh;
-  background-size: cover;
+body::-webkit-scrollbar {
+  display: none;
 }
+
+
 
 .text-theme-color {
   color: var(--theme-color);
@@ -47,6 +45,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)),
+    url(https://i.postimg.cc/tTsNS4Sb/image.png);
+  background-attachment: fixed;
+  height: 100vh;
+  background-size: cover;
 }
 
 nav a {

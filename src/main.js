@@ -43,6 +43,17 @@ const projects = [
       hostLink: '',
       imageLink: 'https://i.postimg.cc/ZRZw0BVP/Portfolio.png'
     },
+    {
+        id: 5,
+        title: 'LC Dashboard',
+        description: 'A mock dashboard for Life Choices (not the one on the picture )',
+        githubLink: 'https://github.com/Lazola2/LCDashboard',
+        hostLink: 'https://lcdashboard.netlify.app/',
+        imageLink: 'https://i.postimg.cc/m2VZz2cs/lcdashboard.png'
+    },
+    {
+
+    }
 ]
 
 // setting the resume in the local storage
@@ -137,8 +148,73 @@ const resume = {
     ],
 }
   
+// setting the testimonials
+const testimonials = [
+    {
+        id: 1,
+        name: 'Asandile Langeni',
+        title: 'Colleague',
+        text: `Lazola is a down to earth person who is always keen to do extra for other people.
+               He is a wonderful developer, always finds new ways to improve himself and is resourceful
+               to others as well.`,
+        position: 'Intern Software Developer',
+        imageLink: 'https://i.postimg.cc/fbbYTnNr/Asandile.jpg',
+    },
+    {
+        id: 2,
+        name: 'Matthew Thomas',
+        title: 'Colleague',
+        text: `
+            Lazola in my personal opinion is a hard worker. Always willing to help his 
+            peers / colleagues with their work.
+            He is able to work fluidly and in an environment with different projects.`,
+        position: 'Intern Software Developer',
+        imageLink: 'https://i.postimg.cc/0QwnPRGq/Matthew.jpg',
+    },
+    {   
+        id: 3,
+        name: 'Sakhe Mzolisa',
+        title: 'Colleague',
+        text: `
+            Lazola is always willing to assist and is exceptionally gifted in coding.
+            A rare gem in for any team with exceptional leadership skills.`,
+        position: 'Intern Software Developer',
+        imageLink: 'https://i.postimg.cc/Kz8bHftL/Sakhe.jpg'
+    },
+    {
+        id: 4,
+        name: 'Lindokuhle Mgoqi',
+        title: 'Colleague',
+        text: `
+            Lazola is a very determined individual who is eager to learn more and always lends a 
+            helping hand. He has such a humble personality an a big heart.`,
+        position: 'Intern Software Developer',
+        imageLink: 'https://i.postimg.cc/kgn3YwQc/Lindokuhle.jpg'
+    },
+    {
+        id: 5,
+        name: 'Seth Kallis',
+        title: 'Colleague',
+        text: `Lazola has what appears to be a natural aptitude for coding/programming.`,
+        position: 'Intern Software Developer',
+        imageLink: 'https://i.postimg.cc/DwRqG00W/IMG-20221105-090125.jpg'
+    },
+    {
+        id: 6,
+        name: 'Candice Amon',
+        title: 'Facilitator',
+        text: `
+            He is a good observer. He understand his strengths very well and knows when to put it to good use.
+            He is not afraid to ask for help when needed and also knows his boundaries.`,
+        position: 'Academy Facilitator'
+    },
+]
+
 // send these projects to the local storage
 localStorage.setItem('projects', JSON.stringify(projects));
 
-// send resume information to the local storage
-localStorage.setItem('resume', JSON.stringify(resume))
+// send resume data to the local storage
+localStorage.setItem('resume', JSON.stringify(resume));
+
+// send testimonial data to the local storage
+localStorage.setItem('testimonials', JSON.stringify(testimonials));
