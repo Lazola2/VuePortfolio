@@ -26,16 +26,16 @@
         <div class="d-flex flex-column align-items-start ps-5 pt-3">
           <h4 class="decorated text-black interests">Interests</h4>
           <div class="interests-container bg-danger list-unstyled">
-            <li class="bg-warning py-2 text-start">
-              <i class="bi bi-music-note-beamed decorated icons"></i>
+            <li class="py-2 text-start ps-3">
+              <i class="bi bi-music-note-beamed  icons"></i>
               Music
             </li>
-            <li class="bg-success py-2 text-start">
-              <i class="bi bi-pencil-fill decorated icons"></i>
+            <li class="py-2 text-start ps-3">
+              <i class="bi bi-pencil-fill  icons"></i>
               Drawings
             </li>
-            <li class="bg-info py-2 text-start">
-              <i class="bi bi-book-half decorated icons"></i>
+            <li class="py-2 text-start ps-3">
+              <i class="bi bi-book-half icons"></i>
               Reading
             </li>
           </div>
@@ -113,7 +113,7 @@ export default {
   }
 
   .icons {
-    position: relative;
-    z-index: 1;
+    padding-right: .5rem;
+    scale: 3
   }
 </style>
