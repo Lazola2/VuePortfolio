@@ -3,7 +3,7 @@
         <h2 class="logo text-theme-color">
             <i class="bi bi-code-slash"></i>
         </h2>
-        <nav>
+        <nav class="">
             <ul class="d-flex list-unstyled">
                 <!-- router link to HOME page -->
                 <router-link to="/">

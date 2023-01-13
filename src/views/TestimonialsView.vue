@@ -31,7 +31,8 @@
                             <div class="h-100 w-50 d-flex flex-column">
                                 <p class="text-start ps-3 pt-2">
                                     <span class="bold">{{ testimonial.name }} </span> 
-                                    <br>{{ testimonial.position }}
+                                    <br>
+                                    <span> {{ testimonial.position }} </span>
                                 </p>
                             </div>
                         </div>
@@ -151,7 +152,7 @@ export default {
     img {
         height: 70px;
         width: 70px;
-        object-fit:cover;
+        object-fit: cover;
     }
 
     .bold {
@@ -159,7 +160,8 @@ export default {
         font-size: 20px;
     }
 
-    .theme-color {
-        color: var(--theme-color);
+    .testimonial-paragraph {
+        scale: 1.03;
     }
+
 </style>

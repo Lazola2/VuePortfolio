@@ -151,33 +151,33 @@ const resume = {
 const testimonials = [
     {
         id: 1,
-        name: 'Asandile Langeni',
-        title: 'Colleague',
-        text: `Lazola is a down to earth person who is always keen to do extra for other people.
-               He is a wonderful developer, always finds new ways to improve himself and is resourceful
-               to others as well.`,
-        position: 'Intern Software Developer',
-        imageLink: 'https://i.postimg.cc/fbbYTnNr/Asandile.jpg',
+        name: 'Candice Amon',
+        title: 'Facilitator',
+        text: `
+        He is a good observer. He understand his strengths very well and knows when to put it to good use.
+        He is not afraid to ask for help when needed and also knows his boundaries.`,
+        position: 'Academy Facilitator at LifeChoices',
+        imageLink: 'https://i.postimg.cc/TP7tcqsY/Candice.jpg'
     },
     {
         id: 2,
         name: 'Matthew Thomas',
         title: 'Colleague',
         text: `
-            Lazola in my personal opinion is a hard worker. Always willing to help his 
-            peers / colleagues with their work.
-            He is able to work fluidly and in an environment with different projects.`,
-        position: 'Intern Software Developer',
-        imageLink: 'https://i.postimg.cc/0QwnPRGq/Matthew.jpg',
+        Lazola in my personal opinion is a hard worker. Always willing to help his 
+        peers / colleagues with their work.
+        He is able to work fluidly and in an environment with different projects.`,
+        position: 'Intern Software Developer at LifeChoices',
+        imageLink: 'https://i.postimg.cc/qvM2k6wS/Matthew.png',
     },
     {   
         id: 3,
         name: 'Sakhe Mzolisa',
         title: 'Colleague',
         text: `
-            Lazola is always willing to assist and is exceptionally gifted in coding.
-            A rare gem in for any team with exceptional leadership skills.`,
-        position: 'Intern Software Developer',
+        Lazola is always willing to assist and is exceptionally gifted in coding.
+        A rare gem in for any team with exceptional leadership skills.`,
+        position: 'Intern Software Developer at LifeChoices',
         imageLink: 'https://i.postimg.cc/Kz8bHftL/Sakhe.jpg'
     },
     {
@@ -185,28 +185,28 @@ const testimonials = [
         name: 'Lindokuhle Mgoqi',
         title: 'Colleague',
         text: `
-            Lazola is a very determined individual who is eager to learn more and always lends a 
-            helping hand. He has such a humble personality an a big heart.`,
-        position: 'Intern Software Developer',
-        imageLink: 'https://i.postimg.cc/kgn3YwQc/Lindokuhle.jpg'
+        Lazola is a very determined individual who is eager to learn more and always lends a 
+        helping hand. He has such a humble personality an a big heart.`,
+        position: 'Intern Software Developer at LifeChoices',
+        imageLink: 'https://i.postimg.cc/jdWrBM0F/Lindo.png'
     },
     {
         id: 5,
         name: 'Seth Kallis',
         title: 'Colleague',
         text: `Lazola has what appears to be a natural aptitude for coding/programming.`,
-        position: 'Intern Software Developer',
-        imageLink: 'https://i.postimg.cc/DwRqG00W/IMG-20221105-090125.jpg'
+        position: 'Intern Software Developer at LifeChoices',
+        imageLink: 'https://i.postimg.cc/PqXVnqv5/Seth.png'
     },
     {
         id: 6,
-        name: 'Candice Amon',
-        title: 'Facilitator',
-        text: `
-            He is a good observer. He understand his strengths very well and knows when to put it to good use.
-            He is not afraid to ask for help when needed and also knows his boundaries.`,
-        position: 'Academy Facilitator',
-        imageLink: 'https://i.postimg.cc/TP7tcqsY/Candice.jpg'
+        name: 'Asandile Langeni',
+        title: 'Colleague',
+        text: `Lazola is a down to earth person who is always keen to do extra for other people.
+               He is a wonderful developer, always finds new ways to improve himself and is resourceful
+               to others as well.`,
+        position: 'Intern Software Developer at LifeChoices',
+        imageLink: 'https://i.postimg.cc/fbbYTnNr/Asandile.jpg',
     },
 ]
 
