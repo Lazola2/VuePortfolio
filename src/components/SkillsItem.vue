@@ -15,14 +15,13 @@ export default {
     name: 'SkillsItem',
     computed: {
         ...mapGetters(['resume']),
-        },
-        methods: {
-            ...mapActions(['fetchResume']), 
-        },
-        created(){
-            this.fetchResume();
-        },
-
+    },
+    methods: {
+        ...mapActions(['fetchResume']), 
+    },
+    created(){
+        this.fetchResume();
+    },
 }
 </script>
 <style scoped>

@@ -14,29 +14,30 @@
             </div>
             <div class="d-flex justify-content-center">
                 <div class="testimonial-cards-container overflow-hidden">
-                    <div id="1" class="testimonial-card w-100 h-100 py-4 px-3">
+                    <div v-for="testimonial in testimonials" :key="testimonial" 
+                        :id="testimonial.id" class="testimonial-card w-100 h-100 py-4 px-3"> 
                         <div class="client-title d-flex align-items-center px-4">
-                            <h5 class="d-inline">Colleague</h5>
+                            <h5 class="d-inline">{{testimonial.title}}</h5>
                         </div>
                         <div class="testimonial-paragraph-container d-flex align-items-center">
                             <p class="testimonial-paragraph text-start px-4">
-                                Lazola is a down to earth person who is always keen to do extra for other people.
-                                He is a wonderful developer, 
-                                always finds new ways to improve himself and is resourceful to others as well.
+                                {{testimonial.text}}
                             </p>
                         </div>
                         <div class="px-4 d-flex align-items-center">
-                            <img class="image rounded-5" src="https://i.postimg.cc/fbbYTnNr/Asandile.jpg" alt="">
+                            <a :href="testimonial.imageLink" target="_blank">
+                                <img class="image rounded-5" :src="testimonial.imageLink">
+                            </a>
                             <div class="h-100 w-50 d-flex flex-column">
                                 <p class="text-start ps-3 pt-2">
-                                    <span class="bold">Asandile Langeni</span> 
-                                    <br>FullStack Developer 
+                                    <span class="bold">{{ testimonial.name }} </span> 
+                                    <br>{{ testimonial.position }}
                                 </p>
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </div> 
+            </div>            
             <div class="navigator d-flex align-items-center justify-content-center gap-3">
                 <a href="#1">
                     <li class="navigator-buttons list-unstyled"></li>
@@ -62,11 +63,23 @@
 </template>
 
 <script>
+import { mapActions, mapGetters } from 'vuex';
 import Decorator from '@/components/Decorator.vue';
+
 export default {
     components: {
         Decorator,
-    }
+    },
+    computed: {
+        ...mapGetters(['testimonials']),
+    },
+    methods: {
+        ...mapActions(['fetchTestimonials']), 
+    },
+    created(){
+        this.fetchTestimonials();
+    },
+   
 }
 </script>
 
@@ -78,6 +91,7 @@ export default {
         display: grid;
         grid-template: 1fr;
         grid-template-rows: 1fr 1.5fr 5fr 1fr;
+        box-sizing: border-box;
     }
 
     .testimonial-title {
@@ -98,8 +112,10 @@ export default {
 
     .testimonial-cards-container {
         width: 60%;
-        height: 85%;
+        height: 300px;
         border: 1px solid black;
+        box-sizing: border-box;
+        overflow: hidden;
     }
 
     .navigator-buttons {

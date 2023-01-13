@@ -205,7 +205,8 @@ const testimonials = [
         text: `
             He is a good observer. He understand his strengths very well and knows when to put it to good use.
             He is not afraid to ask for help when needed and also knows his boundaries.`,
-        position: 'Academy Facilitator'
+        position: 'Academy Facilitator',
+        imageLink: 'https://i.postimg.cc/TP7tcqsY/Candice.jpg'
     },
 ]
 
