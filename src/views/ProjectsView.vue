@@ -15,10 +15,10 @@
 
             <div class="navigator gap-2 mt-2">
                 <a href="#1">
-                        <li class="nav-button list-unstyled"></li>
+                    <li class="nav-button list-unstyled"></li>
                 </a>
                 <a href="#2">
-                    <li class="nav-button list-unstyled"></li>
+                        <li class="nav-button list-unstyled"></li>
                 </a>
                 <a href="#3">
                     <li class="nav-button list-unstyled"></li>
@@ -27,6 +27,9 @@
                     <li class="nav-button list-unstyled"></li>
                 </a>
                 <a href="#5">
+                    <li class="nav-button list-unstyled"></li>
+                </a>
+                <a href="#6">
                     <li class="nav-button list-unstyled"></li>
                 </a>
             </div>
